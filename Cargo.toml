@@ -1,0 +1,8 @@
+[package]
+name = "stream_read_file"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+memmap2 = "0.9.4"
+mio = { version = "0.8.11", features = ["os-poll", "os-ext"] }
